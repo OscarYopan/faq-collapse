@@ -5,6 +5,17 @@
   box-sizing: border-box;
 }
 
+:root {
+  --cor1: #0528F2;
+  --cor2: #0540F2;
+  --cor3: #3071F2;
+  --cor4: #AEC5F2;
+  --cor5: #A68A56;
+  --cor6: #fafad2;
+  --branco: #ffffff;
+  --black: #000000;  
+}
+
 /*Default*/
 html{
   font-family: 'Roboto', sans-serif;
@@ -18,4 +29,51 @@ body{
   justify-content: center;
   height: 100vh;
   overflow: hidden;
+}
+
+h1 {
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+.box {
+  background-color: transparent;
+  border: .2rem solid var(--cor1);
+  border-radius: 1rem;
+  margin: 2rem auto;
+  padding: 1rem;
+  position: relative;
+  width: 60%;
+  height: 15%;
+}
+
+.box h3 {
+  font-size: 1.8rem;
+  margin: 2rem auto;
+}
+
+.box p {
+  font-size: 1.6rem;
+  margin: 2rem auto;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 3rem;
+  color: var(--cor1);
+  position: absolute;
+  right: 3%;
+  top: 17%;
+}
+
+.open {
+  height: 30%;
+  background-color: var(--cor6);
+}
+
+.remove {
+  z-index: -1;
+  visibility: hidden;
 }
