@@ -8,38 +8,53 @@
   <!--Style-->
   <link rel="stylesheet" href="style.css">
   <!--Style Font-AWesome-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!--Font-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
 </head>
 <body>
-    <h1>Perguntas Frequentes</h1>
-    <div class="box open">
-      <button class="btn remove" id="open"><i class="fa-solid fa-angle-down"></i></button>
-      <button class="btn" id="close"><i class="fa-solid fa-circle-xmark"></i></button>
-      <h3>Posso te fazer uma pergunta??</h3>
-      <p>Claro, manda ae xD</p>
+  <h1>Perguntas Frequentes</h1>
+  <div class="container">
+    <div class="faq active">
+      <h3 class="title">Porque não se usa tabelas?</h3>
+      <p class="text">Porque existem recursos mais modernos e práticos para se usar atualmente em HTM e CSS.</p>
+      <button>
+        <i class="fa-solid fa-circle-xmark"></i>
+        <i class="fa-solid fa-angle-down"></i>
+      </button>
+    </div>  
+    <div class="faq">
+      <h3 class="title">Quantos dias tem um ano?</h3>
+      <p class="text">Geralmente, o ano possui 365 dias, com exceção do ano bissexto, onde o ano possui 366 dias.</p>
+      <button>
+        <i class="fa-solid fa-circle-xmark"></i>
+        <i class="fa-solid fa-angle-down"></i>
+      </button>
+    </div>    
+    <div class="faq">
+      <h3 class="title">Qual a distância da lua para a terra?</h3>
+      <p class="text">A distância entre a Terra e a Lua é 384.403 quilômetros. No entanto, a distância real é variável, pois dependendo do curso da órbita da lua.</p>
+      <button>
+        <i class="fa-solid fa-circle-xmark"></i>
+        <i class="fa-solid fa-angle-down"></i>
+      </button>
+    </div>      
+    <div class="faq">
+      <h3 class="title">Qual é o menos pais do mundo?</h3>
+      <p class="text">Vaticano. Com 0,44 km² de superfície e mil habitantes, o Vaticano é o menor país do mundo.</p>
+      <button>
+        <i class="fa-solid fa-circle-xmark"></i>
+        <i class="fa-solid fa-angle-down"></i>
+      </button>
+    </div>     
+    <div class="faq">
+      <h3 class="title">Qual a lingua mais falada?</h3>
+      <p class="text">Inglês. No topo da lista está o inglês, o idioma mais falado do mundo, com mais de 1,2 bilhões de falantes.</p>
+      <button>
+        <i class="fa-solid fa-circle-xmark"></i>
+        <i class="fa-solid fa-angle-down"></i>
+      </button>
+    </div>      
     </div>
-    <div class="box">
-      <button class="btn" id="open"><i class="fa-solid fa-angle-down"></i></button>
-      <button class="btn remove" id="close"><i class="fa-solid fa-circle-xmark"></i></button>
-      <h3>Vai ter live hoje a noite?? Que horas??</h3>
-      <p>Vai sim, quando abrir aviso no insta!!</p>
-    </div>
-    <div class="box">
-      <button class="btn" id="open"><i class="fa-solid fa-angle-down"></i></button>
-      <button class="btn remove" id="close"><i class="fa-solid fa-circle-xmark"></i></button>
-      <h3>Vai ter live hoje a noite?? Que horas??</h3>
-      <p>Vai sim, quando abrir aviso no insta!!</p>
-    </div>
-    <div class="box">
-      <button class="btn" id="open"><i class="fa-solid fa-angle-down"></i></button>
-      <button class="btn remove" id="close"><i class="fa-solid fa-circle-xmark"></i></button>
-      <h3>Vai ter live hoje a noite?? Que horas??</h3>
-      <p>Vai sim, quando abrir aviso no insta!!</p>
-    </div>
+  </div>
 </body>
 <script src="script.js"></script>
 </html>
