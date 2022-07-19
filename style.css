@@ -37,7 +37,7 @@ h1 {
 }
 
 .box {
-  background-color: transparent;
+  background-color: var(--cor4);
   border: .2rem solid var(--cor1);
   border-radius: 1rem;
   margin: 2rem auto;
